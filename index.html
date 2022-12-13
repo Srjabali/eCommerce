@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce</title>
+
+    <link rel="stylesheet" class="content__a" href="style/reset.css" />
+    <link rel="stylesheet" class="content__a" href="style/style.css" />
+    <link rel="stylesheet" class="content__a" href="style/flex.css" />
+    <!-- Estilo letras -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <!-- iconos -->
+    <script src="https://kit.fontawesome.com/ea71e6fab6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="header">
+        <div class="header__div__logo div__logo">
+            <img src="image/logo.png" />
+            <h1>AluraGeek</h1>
+        </div>
+        <div class="header__input">
+            <input type="search" name="busqueda" placeholder="¿Que deseas buscar?" class="header__search"/>
+            <input type="button" value="Login" class="header__btnLogin" />
+        </div>
+        
+    </section>
+    <section class="sale">
+        <!-- <img class="sale__img" src="image/Pokemon.jfif" alt="" /> -->
+        <div class="sale__centrado">
+            <h1>Febrero promocional</h1>
+            <p>Productos Seleccionados con 30% de descuento</p>
+            <input type="button" value="Ver producto" class="sale__btn"/>
+        </div>
+    </section>
+    <section class="content">
+        <div class="content__div">
+            <div class="content__div__titulo">            
+                <h1>Star Wars</h1>
+                <a href="">Ver todo ></a>
+            </div>
+            <div class="content-productos" id="content-productos" datos-productos>
+                
+            </div>
+            <!-- <ul class="content__ul1">
+                <li class="content__list">
+                    <a class="content__a" href=""><img src="image/star wars/star1.png" alt="" class="content_star_img" /><h2>Producto xyz</h2></a>
+                    <h2>$10990</h2>
+                </li class="content__list">
+                <li class="content__list">
+                    <a class="content__a" href=""><img src="image/star wars/star2.png" alt="" class="content_star_img" /><h1>Producto xyz</h1></a>
+                    <h2>$10990</h2>
+                </li class="content__list">
+                <li class="content__list">
+                    <a class="content__a" href=""><img src="image/star wars/star3.png" alt="" class="content_star_img" /><h1>Producto xyz</h1></a>
+                    <h2>$10990</h2>
+                </li class="content__list">
+                <li class="content__list">
+                    <a class="content__a" href=""><img src="image/star wars/star4.png" alt="" class="content_star_img" /><h1>Producto xyz</h1></a>
+                    <h2>$10990</h2>
+                </li class="content__list">
+                <li class="content__list">
+                    <a class="content__a" href=""><img src="image/star wars/star5.png" alt="" class="content_star_img" /><h1>Producto xyz</h1></a>
+                    <h2>$10990</h2>
+                </li class="content__list">
+                <li class="content__list">
+                    <a class="content__a" href=""><img src="image/star wars/star6.png" alt="" class="content_star_img" /><h1>Producto xyz</h1></a>
+                    <h2>$10990</h2>
+                </li class="content__list">
+            </ul> -->
+        </div>
+    </section>
+    <section class="contact">
+        <div class="contact__div__logo div__logo">
+            <img src="image/logo.png" />
+            <h1>AluraGeek</h1>
+        </div>
+        <div class="contact__div__list">
+            <ul class="contact__ul">
+                <li class="contact__list">Quienes somos</li>
+                <li class="contact__list">Politica de privacidad</li>
+                <li class="contact__list">Programa de fidelidad</li>
+                <li class="contact__list">Nuestras tiendas</li>
+                <li class="contact__list">Quiero ser franquiciado</li>
+                <li class="contact__list">Anúncie aquí</li>
+            </ul>
+        </div>
+        <div class="contact__div__form">
+            <h2>Hable con nosotros</h2>
+            <form action="" class="contact__box contact__form">
+                <fieldset class="contact__box contact__field">
+                    <div class="contact__name">
+                      <input
+                        type="text"
+                        name="name"
+                        class="contact__input input__name"
+                        id="name"
+                        placeholder="Nombre"
+                        required
+                      />
+                    </div>
+                    <div class="contact__input contact__message">
+                      <textarea
+                        name="mensaje"
+                        class="contact__input input__message"
+                        id="mensaje"
+                        placeholder="Escribe tu mensaje"
+                        required
+                      ></textarea>
+                    </div>
+                    <div class="contact__input contact__button">
+                      <input
+                        type="submit"
+                        value="Enviar"
+                        class="contact__btn input__button"
+                      />
+                    </div>
+                  </fieldset>
+            </form>
+        </div>
+    </section>
+    <section class="footer">
+        <h3>Desarrollado por mi</h3>
+        <h3>2022</h3>
+    </section>
+    <!-- <script src="index.js"></script> -->
+    <script type="module" src="/Ecomerce/controllers/productos-controller.js"></script>
+</body>
+
+</html>

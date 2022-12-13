@@ -1,0 +1,237 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364); */
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+
+    width: 100%;
+    height: 200vh;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body>section {
+    width: 100vw;
+
+    padding: 0 100px;
+}
+
+h1 {
+    color: black;
+}
+
+h2 {
+    color: black;
+}
+
+h3 {
+    color: black;
+}
+
+/* header */
+.header {
+    height: 8rem;
+    background: white;
+}
+
+.header__div__logo {
+    width: 15%;
+}
+
+.header__input {
+    width: 85%;
+}
+
+.header__search {
+    width: 393px;
+    height: 40px;
+
+    background: #F5F5F5;
+    border: none;
+    border-radius: 20px;
+    padding-left: 20px;
+
+    background-image: url('../image/magnifying-glass-solid.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 5% auto;
+    background-position-x: 95%;
+
+}
+
+.header__btnLogin {
+    width: 182px;
+    height: 51px;
+
+    background: #FFFFFF;
+    border: 1px solid #2A7AE4;
+    color: #2A7AE4;
+}
+
+/* sale */
+.sale {
+    height: 20rem;
+
+    position: relative;
+    display: inline-block;
+    text-align: center;
+
+    background-image: url("../image/banner-image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+}
+
+.sale__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sale__centrado {
+    height: 100%;
+
+}
+
+.sale__centrado>h1 {
+    color: white;
+    font-size: 5vw;
+}
+
+.sale__centrado>p {
+    color: white;
+    font-size: 1.5vw;
+}
+
+.sale__btn {
+    width: 129px;
+    height: 51px;
+
+    background: #2A7AE4;
+
+    border: none;
+
+    color: #FFFFFF;
+}
+
+/* content */
+.content__div {
+    padding: 70px 0;
+}
+
+.content__div__titulo>h1 {
+
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.content__list {
+    background: grey;
+    padding: 10px;
+
+}
+
+.content__a {
+    text-decoration: none;
+}
+.content-productos{
+    height: 50vh;
+    color: black
+}
+/* contact */
+.contact {
+    height: 20rem;
+
+    background: #EAF2FD;
+
+
+}
+
+.contact__div__logo {
+    height: 200px;
+}
+
+.contact__div__list {
+    height: 200px;
+
+}
+
+.contact__list {
+    color: black;
+}
+
+.contact__ul {
+    height: 100%;
+}
+
+.contact__div__form {
+    width: 560px;
+    height: 200px;
+}
+
+.contact__form {
+    width: 560px;
+    height: 90%;
+}
+
+.contact__field {
+    height: 100%;
+}
+
+.contact__input {
+    width: 100%;
+
+    border-radius: 4px;
+    border: none;
+}
+
+.contact__name {
+    height: 20%;
+}
+
+.contact__message {
+    height: 60%;
+}
+
+.contact__button {
+    width: 129px;
+    height: 51px;
+}
+.contact__btn {
+    width: 100%;
+    height: 100%;
+    
+    background: #2A7AE4;
+
+    border: none;
+
+    color: #FFFFFF;
+
+}
+
+
+.input__name {
+    height: 100%;
+}
+
+.input__message {
+    height: 100%;
+}
+
+.input__button {
+    height: 100%;
+}
+
+
+
+/* footer */
+.footer {
+    height: 3rem;
+}

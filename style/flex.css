@@ -1,0 +1,83 @@
+.div__logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* header */
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.header__input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* sale */
+.sale__centrado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+/* content */
+.content__div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.content__div__titulo{
+    display: flex;
+    justify-content: space-between;
+}
+.content__ul1{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.content__list{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.content__a{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* contact */
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact__ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.contact__div__form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contact__field{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+/* footer */
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
