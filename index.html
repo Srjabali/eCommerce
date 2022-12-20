@@ -20,17 +20,19 @@
 
 <body>
     <section class="header">
-        <div class="header__div__logo div__logo">
+        <a href=""class="header__div__logo div__logo">
             <img src="image/logo.png" />
             <h1>AluraGeek</h1>
-        </div>
+        </a>
         <div class="header__input">
             <input type="search" name="busqueda" placeholder="¿Que deseas buscar?" class="header__search"/>
-            <input type="button" value="Login" class="header__btnLogin" />
+            <input type="button" value="Login" class="header__btnLogin" id="header__btnLogin" onclick="window.location='login.html'">
+            <!-- -----------------------------------------------------------------------------onclick="window.location='registro.html'" -->
         </div>
         
     </section>
-    <section class="sale">
+    
+    <section class="sale" id="sale">
         <!-- <img class="sale__img" src="image/Pokemon.jfif" alt="" /> -->
         <div class="sale__centrado">
             <h1>Febrero promocional</h1>
@@ -38,14 +40,14 @@
             <input type="button" value="Ver producto" class="sale__btn"/>
         </div>
     </section>
-    <section class="content">
+    <section class="content" id="content">
         <div class="content__div">
             <div class="content__div__titulo">            
                 <h1>Star Wars</h1>
                 <a href="">Ver todo ></a>
             </div>
             <div class="content-productos" id="content-productos" datos-productos>
-                
+            
             </div>
             <!-- <ul class="content__ul1">
                 <li class="content__list">
@@ -128,7 +130,8 @@
         <h3>Desarrollado por mi</h3>
         <h3>2022</h3>
     </section>
-    <!-- <script src="index.js"></script> -->
+    
+    <script src="index.js"></script>
     <script type="module" src="/Ecomerce/controllers/productos-controller.js"></script>
 </body>
 

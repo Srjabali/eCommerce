@@ -2,13 +2,13 @@ import { productoServices } from "../services/productos-servicios.js";
 
 const nuevoProducto = (name, price, imageUrl) => {
     
-    const card = document.createElement("div");
+    const card = document.createElement("ul");
     const contenido =`
-        <div>
-            <img src=${imageUrl}/>
+        <li>
+            <a href="#"><img src=${imageUrl}/></a>
             <h3>${name}</h3>
             <p>${price}</p>
-        </div>  
+        </li>  
 `    
     card.innerHTML = contenido;
     card.classList.add("card")

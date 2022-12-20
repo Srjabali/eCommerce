@@ -22,7 +22,9 @@ body>section {
 
     padding: 0 100px;
 }
-
+a{
+    text-decoration: none;
+}
 h1 {
     color: black;
 }
@@ -33,6 +35,10 @@ h2 {
 
 h3 {
     color: black;
+}
+
+.header__btnLogin{
+    cursor: zoom-in;
 }
 
 /* header */
@@ -73,6 +79,7 @@ h3 {
     background: #FFFFFF;
     border: 1px solid #2A7AE4;
     color: #2A7AE4;
+
 }
 
 /* sale */
@@ -145,6 +152,26 @@ h3 {
     height: 50vh;
     color: black
 }
+
+.card{
+    width: 12rem;
+    height: 15rem;
+}
+.card > li {
+    width: 100%;
+    height: 100%;
+}
+
+.card > li > a {
+    width: 100%;
+    height: 100%;
+}
+.card > li > a > img{
+    width: 12rem;
+    height: 12rem;
+    object-fit: cover;
+
+}
 /* contact */
 .contact {
     height: 20rem;
@@ -170,7 +197,7 @@ h3 {
 .contact__ul {
     height: 100%;
 }
-
+/* hable con nosotros */
 .contact__div__form {
     width: 560px;
     height: 200px;
@@ -234,4 +261,101 @@ h3 {
 /* footer */
 .footer {
     height: 3rem;
+}
+/* register */
+.register{
+    background-color: #E5E5E5;
+    padding: 50px 0;
+}
+/* hable con nosotros */
+.register__div__form {
+    width: 560px;
+    height: 200px;
+}
+
+.register__form {
+    width: 560px;
+    height: 90%;
+}
+
+.register__field {
+    height: 100%;
+}
+
+.register__input {
+    width: 100%;
+
+    border-radius: 4px;
+    border: none;
+}
+
+.register__name {
+    height: 20%;
+}
+
+.register__email {
+    height: 20%;
+}
+
+.register__button {
+    width: 129px;
+    height: 51px;
+}
+.register__btn {
+    width: 100%;
+    height: 100%;
+    
+    background: #2A7AE4;
+
+    border: none;
+
+    color: #FFFFFF;
+}
+/* registro ingreso */
+.registerIng{
+    
+}
+
+.registerInt__div__form {
+    width: 560px;
+    height: 200px;
+}
+
+.registerInt__form {
+    width: 560px;
+    height: 90%;
+}
+
+.registerInt__field {
+    height: 100%;
+}
+
+.registerInt__input {
+    width: 100%;
+
+    border-radius: 4px;
+    border: none;
+}
+
+.registerInt__name {
+    height: 20%;
+}
+
+.registerInt__email {
+    height: 20%;
+}
+
+.registerInt__button {
+    width: 129px;
+    height: 51px;
+}
+.registerInt__btn {
+    width: 100%;
+    height: 100%;
+    
+    background: #2A7AE4;
+
+    border: none;
+
+    color: #FFFFFF;
 }
